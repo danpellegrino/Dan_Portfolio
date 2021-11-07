@@ -1,2 +1,2 @@
-# Dan_Portfolio
-* This is a test for a Project Portfolio
+# My Portfolio Website
+* This is a test to make a collection of projects on my website
