@@ -9,4 +9,6 @@ My preferred coding languages are Java, Javascript, and C/C++. I'm proficent in 
 - How can you reach me? [LinkedIn](https://www.linkedin.com/in/daniel-pellegrino-aa30411a7/) || [info@danieljpellegrino.com](mailto:info@danieljpellegrino.com)
 
 # Deployed Projects
-- N/A
+- Portfolio Website
+- PalindromeInfo
+- StringHash
