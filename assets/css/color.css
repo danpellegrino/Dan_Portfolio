@@ -5212,7 +5212,7 @@ p
 .resume-list .resume-list__block-title {
     text-transform:uppercase;
     color:#6d56c1;
-    font-size:14px;
+    font-size:15px;
     line-height:20px;
     font-family:Roboto Mono,monospace;
     font-weight:700;
@@ -5220,7 +5220,7 @@ p
 }
 .resume-list .resume-list__block-date {
     font-family:Inconsolata,monospace;
-    font-size:14px;
+    font-size:16px;
     line-height:20px;
     color:#999;
     padding-bottom:10px
@@ -5275,5 +5275,8 @@ p
     }
     .tags {
         color: black;
+    }
+    .resume-list .resume-list__block-title {
+        color:#9180d0;
     }
 }
