@@ -1,6 +1,6 @@
 # About Me
 
-Hi I'm Daniel Pellegrino, I'm currently a sophomore Computer & Information Sciences student attending SUNY Polytechnic Institute. I've had a background in coding since my freshman year in high school and have been working on multiple projects over that timespan.
+Hi I'm Daniel Pellegrino, I'm currently a junior Computer & Information Sciences student attending SUNY Polytechnic Institute. I've had a background in coding since my freshman year in high school and have been working on multiple projects over that timespan.
 
 Over these past few years, I've self-taught myself coding techniques ontop of the ones I've learned in college.
 
