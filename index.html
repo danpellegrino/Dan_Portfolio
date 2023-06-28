@@ -15,6 +15,11 @@
   <link rel="stylesheet" href="assets/css/color.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Inconsolata" rel="stylesheet">
   <link href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
+
+  <!--
+    visualization.css provides the styling for the visualization iframe
+  -->
+  <link rel="stylesheet" href="assets/css/visualization.css">
 </head>
 <body>
 
@@ -305,23 +310,28 @@
             <li>JavaScript</li>
             <li>PHP</li>
           </ul>
-          <a href="https://github.com/danpellegrino/Portfolio_Website" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="https://github.com/danpellegrino/Portfolio_Website" target="_blank" style="display: contents;""><i class="fa fa-github"></i></a>
         </div>
       </div>
       <div class="row project-card"  data-toggle="modal" data-target="#palindromeInfo" data-portfolio-tag="mobile apps">
         <div class="col-md-6 col-lg-5 project-card__img">
-          <img class="" src="assets/img/code.jpg" alt="project-img">
+          <img class="" src="assets/img/soe.png" alt="project-img">
         </div>
         <div class="col-md-6 col-lg-7 project-card__info">
-          <h3 class="project-card__title">PalindromeInfo</h3>
+          <h3 class="project-card__title">Sieve of Eratosthenes</h3>
           <p class="project-card__description">
-            Click on the card for more info!
+            The program is designed to implement the Sieve of Eratosthenes algorithm and visually display the resulting prime numbers using an HTML canvas.
+            <br></br>
+            The code can be ran on this website by clicking <a href="#" id="visualization-link">here</a>.
+            <iframe id="visualization-iframe" style="display: none;"></iframe>
           </p>
           <p class="project-card__stack">Used stack:</p>
           <ul class="tags">
-            <li>C++</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
           </ul>
-          <a href="https://github.com/danpellegrino/PalindromeInfo/blob/main/PalindromeInfo.cpp" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="https://github.com/danpellegrino/Sieve-of-Eratosthenes" target="_blank" style="display: contents;"><i class="fa fa-github"></i></a>
         </div>
       </div>
       <div class="row project-card"  data-toggle="modal" data-target="#stringHash" data-portfolio-tag="landing-pages">
@@ -337,7 +347,7 @@
         <ul class="tags">
           <li>C++</li>
         </ul>
-        <a href="https://github.com/danpellegrino/stringHash" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://github.com/danpellegrino/stringHash" target="_blank" style="display: contents;""><i class="fa fa-github"></i></a>
       </div>
       </div>
     </div>
@@ -447,18 +457,20 @@
         </button>
       </div>
       <div class="modal-body col-md-11 col-lg-9 ml-auto mr-auto">
-        <p class="portfolio-modal__title">PalindromeInfo</p>
+        <p class="portfolio-modal__title">Sieve of Eratosthenes</p>
         <img class="portfolio-modal__img" src="assets/img/code.jpg" alt="modal_img">
         <p class="portfolio-modal__description">
-          A C++ program that utilizes stacks, queues, and vectors to output how many palindromes are in the file, how many have a certain letter in them, the palindromes with the most characters, and the palindromes that have a certain letter in them and have the most characters.
-        </p>
+          The program is designed to implement the Sieve of Eratosthenes algorithm and visually display the resulting prime numbers using an HTML canvas. The code can be ran on this website by clicking the link below.
         <div class="portfolio-modal__link">
           <a href="https://github.com/danpellegrino/PalindromeInfo/blob/main/PalindromeInfo.cpp" target="_blank"><i class="fa fa-github"></i></a>
         </div>
         <div  class="portfolio-modal__stack">
           <p class="portfolio-modal__stack-title">Using stack:</p>
           <ul class="tags">
-            <li>C++</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
           </ul>
         </div>
       </div>
@@ -511,5 +523,6 @@
   <script src="assets/js/mbclicker.min.js"></script>
   <script src="assets/js/site-btn.js"></script>
   <script src="assets/js/style-switcher.js"></script>
+  <script src="assets/js/visualization.js"></script>
 </body>
 </html>
