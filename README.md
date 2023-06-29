@@ -10,5 +10,5 @@ My preferred coding languages are Java, Javascript, and C/C++. I'm proficent in 
 
 # Deployed Projects
 - Portfolio Website
-- PalindromeInfo
+- Sieve of Eratosthenes
 - StringHash
